@@ -11,11 +11,13 @@
 
 > Tweaked Notebook in /Local for Ubuntu because Hadoop is
 > ~~a pain in the ass~~ difficult to install on Windows.
+>
+> Finished with Query 1 and Query 2
 
 ## Completed so far:
 
-- [ ] Query 1
-- [x] Query 2 (Needs comments)
+- [x] Query 1
+- [x] Query 2
 - [ ] Query 3
 - [ ] Query 4
 - [ ] Query 5
