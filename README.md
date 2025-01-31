@@ -1,23 +1,33 @@
 # Advanced-DB-2025
 
-## Changes
+## [Local Notebook](./Local/AdvancedDataBase.ipynb):
 
-- <h3>16-1-25:</h3>v
-  
-> Created the Notebook file
-> and uploaded the data in the Data folder
+How to run the notebook locally:
 
-- <h3>17-1-25:</h3>
+## Windows 10/11:
 
-> Tweaked Notebook in /Local for Ubuntu because Hadoop is
-> ~~a pain in the ass~~ difficult to install on Windows.
->
-> Finished with Query 1 and Query 2
+### Requirements:
+---------------------
+1. Python 3
+2. Pyspark
+3. Apache Hadoop
+4. Apache Sedonna
 
-## Completed so far:
+### Set up:
+-------------------
+1. Download and install [Python](https://www.python.org/downloads/release/python-3119/). We will be using Python 3.11.9 for compatibility purposes.
+Make sure to add python to Path.
 
-- [x] Query 1
-- [x] Query 2
-- [ ] Query 3
-- [ ] Query 4
-- [ ] Query 5
+2. Open command prompt and install pyspark with pip:
+
+```
+pip install pyspark
+```
+
+3. Download [Apache Hadoop](https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz) and extract its files to your prefered path (we use version 3.3.6)
+In the __System Environment Variables__ make the following additions:
+    
+    - Add __path\to\hadoop\bin__ to __Path__
+    - Create a variable __HADOOP_HOME__ with value __path\to\hadoop__
+
+4.
